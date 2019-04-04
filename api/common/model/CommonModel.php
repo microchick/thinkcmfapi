@@ -123,9 +123,9 @@ class CommonModel extends Model
         }
 
         if (!empty($params['where']) && !is_string($params['where'])) {
-            if (empty($model)) {
+           
                 $_this->where($params['where']);
-            }
+            
         }
 
         if (!empty($params['id'])) {
